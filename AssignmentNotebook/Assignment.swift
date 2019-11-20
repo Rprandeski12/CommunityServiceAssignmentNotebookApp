@@ -13,6 +13,16 @@ struct Assignment: Codable
     var assignmentName = ""
     var dueDate = ""
     var image : UIImage?
+    
+//    enum CodingKeys: String, CodingKey {
+//    case latitude
+//    case longitude
+//    case altitude
+//    case horizontalAccuracy
+//    case verticalAccuracy
+//    case speed
+//    case course
+//    case timestamp
     init(n:String , d:String)
     {
         assignmentName = n
