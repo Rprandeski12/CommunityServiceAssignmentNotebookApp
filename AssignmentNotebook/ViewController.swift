@@ -67,6 +67,7 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
         let current = assignments[indexPath.row]
         cell.textLabel?.text = current.assignmentName
         cell.detailTextLabel?.text = current.dueDate
+        cell.imageView?.image = #imageLiteral(resourceName: "AssignmentPic")
         cell.imageView?.image = current.image
         return cell
     }
@@ -88,7 +89,7 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
     }
     @IBAction func cameraButton(_ sender: UIBarButtonItem)
     {
-        imagePicker.sourceType = .camera
+        imagePicker.sourceType = .photoLibrary
         present(imagePicker, animated: true, completion: nil)
     }
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -103,6 +104,8 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
                 self.assignments.append(newAssignment)
                 // reload the tableview
                 self.myTabelView.reloadData()
+                
+                self.saveToUserDefaults()
 //                self.assignmentPic.image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
             }
             

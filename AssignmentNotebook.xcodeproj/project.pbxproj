@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38DC569F2388356E0027D508 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DC569E2388356E0027D508 /* Helpers.swift */; };
 		9A8864A9225FB106008543B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8864A8225FB106008543B7 /* AppDelegate.swift */; };
 		9A8864AB225FB106008543B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8864AA225FB106008543B7 /* ViewController.swift */; };
 		9A8864AE225FB106008543B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8864AC225FB106008543B7 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38DC569E2388356E0027D508 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		9A8864A5225FB106008543B7 /* AssignmentNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8864A8225FB106008543B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A8864AA225FB106008543B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				9A8864A8225FB106008543B7 /* AppDelegate.swift */,
 				9A8864AA225FB106008543B7 /* ViewController.swift */,
 				9AD0DCEA226101CC00602675 /* Assignment.swift */,
+				38DC569E2388356E0027D508 /* Helpers.swift */,
 				9A8864AC225FB106008543B7 /* Main.storyboard */,
 				9A8864AF225FB108008543B7 /* Assets.xcassets */,
 				9A8864B1225FB108008543B7 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				9AD0DCEB226101CC00602675 /* Assignment.swift in Sources */,
 				9A8864AB225FB106008543B7 /* ViewController.swift in Sources */,
 				9A8864A9225FB106008543B7 /* AppDelegate.swift in Sources */,
+				38DC569F2388356E0027D508 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
